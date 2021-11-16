@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login</title>
+<link rel="stylesheet" type="text/css" href="login.css"/>
+<script type="text/javascript">
+function clicked() {
+    alert('Successfully submitted');
+}
+
+    $("#formname").resetForm();
+</script>
+</head>
+<body>
+<div id="holder">
+	
+<div id="login">
+<br>
+	<h1> Login</h1>
+  		<div id="p"><br><br><br>
+	<form action="contact.html" method="post" >
+<label for="number">NAME:</label>&nbsp;&nbsp;
+            <input id="input-name" name="rnumber" placeholder="ENTER YOUR NAME" required="" type="text"> <br><br>
+	&nbsp;&nbsp;&nbsp;
+<label for="number">Id:</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input id="input-id" name="rid" placeholder="ENTER YOUR ID" required="" type="text"> <br><br>
+Cancel:
+      	<input type="radio" name="cancel" value="yes">Yes
+   		<input type="radio" name="cancel" value="no">No
+   		<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input id="loginbtn"    type="submit" name="submit" value="login"/>
+<a href="index.html" id="logoutbtn">logout</a>
+
+</form>
+        </div><!--p-->
+</div><!--login-->
+</div><!--holder-->
+</body>
+</html>
